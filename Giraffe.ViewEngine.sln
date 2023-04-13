@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2220E7F8-8762-4E3E-BA32-30BCD8915F04}"
 EndProject
@@ -15,20 +15,21 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Giraffe.ViewEngine.Tests", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_root", "_root", "{55329640-BF2E-411E-8F97-A397DA138E7F}"
 	ProjectSection(SolutionItems) = preProject
-		LICENSE = LICENSE
-		README.md = README.md
-		RELEASE_NOTES.md = RELEASE_NOTES.md
-		NuGet.config = NuGet.config
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
+		global.json = global.json
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+		RELEASE_NOTES.md = RELEASE_NOTES.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{AE9081DB-1992-4AEC-9D84-F276047E82D6}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Giraffe.ViewEngine.Sample", "samples\Giraffe.ViewEngine.Sample\Giraffe.ViewEngine.Sample.fsproj", "{AD23CC18-C2ED-47CB-847F-34CB5460259B}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Giraffe.ViewEngine.Sample", "samples\Giraffe.ViewEngine.Sample\Giraffe.ViewEngine.Sample.fsproj", "{AD23CC18-C2ED-47CB-847F-34CB5460259B}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Giraffe.ViewEngine.StrongName", "src\Giraffe.ViewEngine.StrongName\Giraffe.ViewEngine.StrongName.fsproj", "{DADFF90B-109E-4469-A298-CA6A7E668926}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Giraffe.ViewEngine.StrongName", "src\Giraffe.ViewEngine.StrongName\Giraffe.ViewEngine.StrongName.fsproj", "{DADFF90B-109E-4469-A298-CA6A7E668926}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
